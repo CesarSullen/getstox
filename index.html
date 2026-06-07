@@ -1,0 +1,901 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Primary Meta -->
+		<title>STOX</title>
+		<meta name="description" content="Control total sin complicaciones." />
+		<meta name="theme-color" content="#0D0D0D" />
+
+		<!-- Open Graph -->
+		<meta property="og:title" content="STOX" />
+		<meta
+			property="og:description"
+			content="Control total sin complicaciones."
+		/>
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="./assets/opengraph/opengraph.png" />
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="./assets/opengraph/logo.png" />
+		<link rel="apple-touch-icon" href="./assets/opengraph/logo.png" />
+
+		<!-- Styles -->
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+
+	<body>
+		<!-- NAVIGATION -->
+		<nav class="nav">
+			<div class="nav-inner">
+				<a href="./" class="nav-logo">
+					<img
+						src="./assets/opengraph/stox-logo-text.svg"
+						class="nav-logo-img"
+					/>
+				</a>
+				<nav class="nav-links">
+					<a href="#features" class="nav-link">Beneficios</a>
+					<a href="#how-it-works" class="nav-link">Cómo funciona</a>
+					<a href="#comparison" class="nav-link">Roles</a>
+					<a href="#pricing" class="nav-link">Precios</a>
+				</nav>
+				<a href="#downloads" class="nav-cta btn btn-primary"> Probar gratis </a>
+				<button class="burger-menu">
+					<span class="burger-menu-bar"></span>
+					<span class="burger-menu-bar"></span>
+					<span class="burger-menu-bar"></span>
+				</button>
+			</div>
+			<div id="nav-mobile" class="nav-mobile">
+				<a href="#features" class="nav-mobile-link">Beneficios</a>
+				<a href="#how-it-works" class="nav-mobile-link">Cómo funciona</a>
+				<a href="#comparison" class="nav-mobile-link">Roles</a>
+				<a href="#pricing" class="nav-mobile-link">Precios</a>
+				<a href="#downloads" class="btn btn-primary nav-mobile-cta">
+					Probar gratis
+				</a>
+			</div>
+		</nav>
+
+		<main>
+			<!-- HERO -->
+			<section class="section hero" id="home">
+				<div class="hero-bg-grid"></div>
+				<div class="hero-glow"></div>
+
+				<div class="hero-inner">
+					<div class="hero-content">
+						<h1 class="hero-title">
+							Gestiona tu negocio<br />
+							<span class="hero-title-accent">desde el móvil</span><br />
+							Sin complicaciones
+						</h1>
+						<p class="hero-subtitle">
+							<strong style="color: var(--accent)">STOX</strong> para el dueño.
+							<strong style="color: var(--sely-accent)">SELY</strong> para el
+							dependiente.<br />
+							Inventario, ventas y estadísticas, todo en tus manos.
+						</p>
+						<div class="hero-actions">
+							<a href="#downloads" class="btn btn-primary">
+								<img
+									src="./assets/icons/package-duotone.svg"
+									class="btn-icon"
+								/>
+								Descargar App
+							</a>
+							<a
+								href="https://cesarsullen.github.io/stox"
+								target="_blank"
+								class="btn btn-ghost"
+							>
+								<img
+									src="./assets/icons/share-fat-duotone.svg"
+									class="btn-icon"
+								/>
+								Probar web app
+							</a>
+						</div>
+					</div>
+
+					<div class="hero-mockup">
+						<div class="hero-mockup-device hero-mockup-device-back">
+							<img
+								src="./assets/screenshots/mobile-sely-home.webp"
+								class="hero-mockup-screen"
+							/>
+						</div>
+						<div class="hero-mockup-device hero-mockup-device-front">
+							<img
+								src="./assets/screenshots/mobile-home.webp"
+								class="hero-mockup-screen"
+							/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- PROBLEM -->
+			<section class="section problem" id="problem">
+				<div class="problem-inner">
+					<div class="section-header">
+						<h2 class="section-title problem-title">
+							Trabajo inteligente,<br />no fuerte
+						</h2>
+						<p class="section-subtitle">
+							La gestión de tu negocio debe ser automática.
+						</p>
+					</div>
+					<div class="problem-grid">
+						<article class="problem-card">
+							<div class="problem-card-icon-wrap">
+								<img
+									src="./assets/icons/scroll-duotone.svg"
+									class="problem-card-icon"
+								/>
+							</div>
+							<p class="problem-card-title">¿Llevas los registros en papel?</p>
+							<p class="problem-card-body">
+								STOX lo digitaliza. Inventario con categorías, historial de
+								compras y ventas, etc.
+							</p>
+						</article>
+						<article class="problem-card">
+							<div class="problem-card-icon-wrap">
+								<img
+									src="./assets/icons/handbag-simple-duotone.svg"
+									class="problem-card-icon"
+								/>
+							</div>
+							<p class="problem-card-title">¿Tienes varios puntos de venta?</p>
+							<p class="problem-card-body">
+								SELY los conecta contigo. Sus ventas llegan automáticamente a tu
+								STOX. Relájate y revisa.
+							</p>
+						</article>
+						<article class="problem-card">
+							<div class="problem-card-icon-wrap">
+								<img
+									src="./assets/icons/chart-pie-slice-duotone.svg"
+									class="card-icon"
+								/>
+							</div>
+							<p class="problem-card-title">¿Haces demasiados cálculos?</p>
+							<p class="problem-card-body">
+								Revisa el panel de estadísticas para analizar tu rendimiento. No
+								más papel.
+							</p>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- FEATURES -->
+			<section class="section features" id="features">
+				<div class="features-inner">
+					<div class="section-header">
+						<h2 class="section-title">
+							Lo que necesitas,<br />fácil y accesible
+						</h2>
+						<p class="section-subtitle">
+							Diseñado para dueños de negocios, facilitando el trabajo de sus
+							dependientes.
+						</p>
+					</div>
+
+					<div class="features-grid-bento">
+						<article class="feature-card card-vertical">
+							<div class="feature-card-image-wrap">
+								<img
+									src="./assets/icons/cash-register-duotone.svg"
+									class="feature-card-img"
+								/>
+							</div>
+							<div class="feature-card-content">
+								<h3 class="feature-card-title">Control de lotes y costos</h3>
+								<p class="feature-card-body">
+									Registra cada compra con su costo real. STOX calcula
+									automáticamente tu ganancia bruta por venta.
+								</p>
+							</div>
+						</article>
+
+						<article class="feature-card card-horizontal-top">
+							<div class="feature-card-content">
+								<h3 class="feature-card-title">Tickets multi-producto</h3>
+								<p class="feature-card-body">
+									Agrupa varias ventas en un solo ticket. Gestiona devoluciones
+									por ítem sin perder el registro.
+								</p>
+							</div>
+							<div class="feature-card-image-wrap">
+								<img
+									src="./assets/icons/invoice-duotone.svg"
+									class="feature-card-img img-large"
+								/>
+							</div>
+						</article>
+
+						<article class="feature-card card-square-left">
+							<div class="feature-card-content">
+								<h3 class="feature-card-title">Backup automático</h3>
+								<p class="feature-card-body">
+									Tus datos están seguros aunque cambies de teléfono. Restaura
+									con un clic desde cualquier dispositivo.
+								</p>
+							</div>
+							<div class="feature-card-image-wrap avatars-style">
+								<img
+									src="./assets/icons/cloud-arrow-up-duotone.svg"
+									class="feature-card-img"
+								/>
+							</div>
+						</article>
+
+						<article class="feature-card card-square-right">
+							<div class="feature-card-image-wrap magnifier-style">
+								<img
+									src="./assets/icons/chart-donut-duotone.svg"
+									class="feature-card-img"
+								/>
+							</div>
+							<div class="feature-card-content">
+								<h3 class="feature-card-title">Historial y estadísticas</h3>
+								<p class="feature-card-body">
+									Filtra por día, semana o mes. Mira qué productos venden más y
+									en qué horarios hay más actividad.
+								</p>
+							</div>
+						</article>
+
+						<article class="feature-card card-horizontal-bottom">
+							<div class="feature-card-content">
+								<h3 class="feature-card-title">Alertas Inteligentes</h3>
+								<p class="feature-card-body">
+									Establece la cantidad mínima de inventario para cada producto
+									y deja que el sistema te avise.
+								</p>
+							</div>
+							<div class="feature-card-image-wrap bell-style">
+								<img
+									src="./assets/icons/bell-duotone.svg"
+									class="feature-card-img img-large"
+								/>
+							</div>
+						</article>
+
+						<article class="feature-card card-square-bottom">
+							<div class="feature-card-content">
+								<h3 class="feature-card-title">Panel de rendimiento</h3>
+								<p class="feature-card-body">
+									Gráficos de ventas por día de la semana y por franja horaria.
+									Listas de tus mejores productos.
+								</p>
+							</div>
+							<div class="feature-card-image-wrap pie-style">
+								<img
+									src="./assets/icons/trend-up-duotone.svg"
+									class="feature-card-img"
+								/>
+							</div>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- SCREENSHOTS -->
+			<section class="section screenshots" id="screenshots">
+				<div class="screenshots-inner">
+					<div class="section-header">
+						<h2 class="section-title">Simple por defecto.</h2>
+						<p class="section-subtitle">
+							Sin complicaciones, pensado para el uso diario.
+						</p>
+					</div>
+					<div class="screenshots-strip" role="list">
+						<figure class="screenshot-item" role="listitem">
+							<div class="screenshot-item-frame">
+								<img
+									src="./assets/screenshots/mobile-dashboard.webp"
+									class="screenshot-item-img"
+									loading="lazy"
+								/>
+							</div>
+							<figcaption class="screenshot-item-caption">
+								Estadísticas
+							</figcaption>
+						</figure>
+						<figure class="screenshot-item" role="listitem">
+							<div class="screenshot-item-frame">
+								<img
+									src="./assets/screenshots/mobile-charts.webp"
+									class="screenshot-item-img"
+									loading="lazy"
+								/>
+							</div>
+							<figcaption class="screenshot-item-caption">Gráficos</figcaption>
+						</figure>
+						<figure class="screenshot-item" role="listitem">
+							<div class="screenshot-item-frame">
+								<img
+									src="./assets/screenshots/mobile-inventory.webp"
+									class="screenshot-item-img"
+									loading="lazy"
+								/>
+							</div>
+							<figcaption class="screenshot-item-caption">
+								Inventario
+							</figcaption>
+						</figure>
+						<figure class="screenshot-item" role="listitem">
+							<div class="screenshot-item-frame">
+								<img
+									src="./assets/screenshots/mobile-resume.webp"
+									class="screenshot-item-img"
+									loading="lazy"
+								/>
+							</div>
+							<figcaption class="screenshot-item-caption">Resúmenes</figcaption>
+						</figure>
+						<figure class="screenshot-item" role="listitem">
+							<div class="screenshot-item-frame">
+								<img
+									src="./assets/screenshots/mobile-history.webp"
+									class="screenshot-item-img"
+									loading="lazy"
+								/>
+							</div>
+							<figcaption class="screenshot-item-caption">Historial</figcaption>
+						</figure>
+						<figure class="screenshot-item" role="listitem">
+							<div class="screenshot-item-frame">
+								<img
+									src="./assets/screenshots/mobile-lists.webp"
+									class="screenshot-item-img"
+									loading="lazy"
+								/>
+							</div>
+							<figcaption class="screenshot-item-caption">Listas</figcaption>
+						</figure>
+					</div>
+				</div>
+			</section>
+
+			<!-- HOW IT WORKS -->
+			<section class="section how-it-works" id="how-it-works">
+				<div class="how-it-works-inner">
+					<div class="section-header">
+						<h2 class="section-title">Solo tres pasos</h2>
+						<p class="section-subtitle">Sin configuraciones complejas.</p>
+					</div>
+					<div class="steps-container">
+						<div class="steps-image-wrap">
+							<img
+								src="./assets/screenshots/mockup-iphone.png"
+								class="steps-side-image"
+								loading="lazy"
+							/>
+						</div>
+
+						<div class="steps">
+							<article class="step">
+								<div class="step-number">01</div>
+								<div class="step-content">
+									<h3 class="step-title">Registra tu inventario.</h3>
+									<p class="step-body">
+										Agrega productos con su costo, precio de venta y categoría.
+										STOX hace tus cálculos solo.
+									</p>
+								</div>
+								<div class="step-visual">
+									<img
+										src="./assets/icons/package-duotone.svg"
+										class="step-icon"
+									/>
+								</div>
+							</article>
+
+							<div class="step-connector"></div>
+
+							<article class="step">
+								<div class="step-number">02</div>
+								<div class="step-content">
+									<h3 class="step-title">
+										Comparte el catálogo con tus dependientes.
+									</h3>
+									<p class="step-body">
+										Un código de vinculación es todo lo que necesitan. Lo demás
+										es automático.
+									</p>
+								</div>
+								<div class="step-visual">
+									<img
+										src="./assets/icons/storefront-duotone.svg"
+										class="step-icon"
+									/>
+								</div>
+							</article>
+
+							<div class="step-connector"></div>
+
+							<article class="step">
+								<div class="step-number">03</div>
+								<div class="step-content">
+									<h3 class="step-title">
+										Las ventas de cada punto llegan solas.
+									</h3>
+									<p class="step-body">
+										Cada venta se sincroniza en tiempo real. Con un solo vistazo
+										tienes todos los datos.
+									</p>
+								</div>
+								<div class="step-visual">
+									<img
+										src="./assets/icons/coins-duotone.svg"
+										class="step-icon"
+									/>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- COMPARISON -->
+			<section class="section comparison" id="comparison">
+				<div class="comparison-inner">
+					<div class="section-header">
+						<h2 class="section-title">STOX vs SELY</h2>
+						<p class="section-subtitle">
+							Dos apps, un solo sistema. Cada una con su rol.
+						</p>
+					</div>
+					<div class="comparison-table-wrap" role="region" tabindex="0">
+						<table class="comparison-table">
+							<thead>
+								<tr>
+									<th class="comparison-table-feature-col" scope="col">
+										Función
+									</th>
+									<th scope="col">
+										<span class="app-badge app-badge-stox">STOX</span>
+									</th>
+									<th scope="col">
+										<span class="app-badge app-badge-sely">SELY</span>
+									</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Inventario completo</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+									<td>
+										<span class="check">Sin detalles</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Registrar ventas</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Backup y nube</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Devoluciones</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Alertas de bajo stock</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Control de costos y lotes</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+									<td>
+										<span class="check">—</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Estadísticas y panel</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+									<td>
+										<span class="check">—</span>
+									</td>
+								</tr>
+								<tr>
+									<td>Exportar PDF / reporte</td>
+									<td>
+										<span class="check check-yes">✓</span>
+									</td>
+									<td>
+										<span class="check">—</span>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="how-it-works-diagram">
+					<div class="diagram-app">
+						<img
+							src="./assets/screenshots/mobile-home.webp"
+							class="diagram-app-screenshot"
+						/>
+						<span class="diagram-app-label">Dueño</span>
+					</div>
+					<div class="diagram-arrow">
+						<img
+							src="./assets/icons/arrows-clockwise.svg"
+							class="diagram-arrow-icon"
+						/>
+					</div>
+					<div class="diagram-app">
+						<img
+							src="./assets/screenshots/mobile-sely-home.webp"
+							class="diagram-app-screenshot"
+						/>
+						<span class="diagram-app-label">Dependientes</span>
+					</div>
+				</div>
+			</section>
+
+			<!-- PRICING -->
+			<section class="section pricing" id="pricing">
+				<div class="pricing-inner">
+					<div class="section-header">
+						<h2 class="section-title">Precio accesible<br />para cualquiera</h2>
+						<p class="section-subtitle">Una sola compra te desbloquea todo.</p>
+					</div>
+					<div class="pricing-grid">
+						<article class="pricing-card">
+							<div class="pricing-card-header">
+								<h3 class="pricing-card-plan">
+									Plan <strong style="color: var(--accent)">Gratuito</strong>
+								</h3>
+								<p class="pricing-card-tagline">
+									Limitado, perfecto para pequeños negociantes.
+								</p>
+							</div>
+							<div class="pricing-card-price">
+								<span class="pricing-card-amount">0 CUP</span>
+								<span class="pricing-card-period">/ siempre</span>
+							</div>
+							<ul class="pricing-card-features" role="list">
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									Inventario limitado (5 productos)
+								</li>
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									Ingresos y ganancias del día
+								</li>
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									Registro diario histórico
+								</li>
+							</ul>
+							<a
+								href="https://wa.me/5351643954?text=Hola, quiero obtener un código Premium para STOX."
+								target="_blank"
+								class="btn btn-ghost"
+							>
+								Descargar STOX
+							</a>
+						</article>
+
+						<article class="pricing-card pricing-card-featured">
+							<div class="pricing-card-badge">Recomendado</div>
+							<div class="pricing-card-header">
+								<h3 class="pricing-card-plan">Premium + Nube</h3>
+								<p class="pricing-card-tagline">
+									Con sincronización entre dispositivos y backup automático.
+								</p>
+							</div>
+							<div class="pricing-card-price">
+								<span class="pricing-card-amount">5000 CUP</span>
+								<span class="pricing-card-period">/ año</span>
+								<span class="pricing-card-extra">+ 500 CUP / mes (nube)</span>
+							</div>
+							<ul class="pricing-card-features" role="list">
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									<strong>Todo lo del Premium Local</strong>
+								</li>
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									Sincronización automática
+								</li>
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									Backup en la nube
+								</li>
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									Uso desde cualquier dispositivo
+								</li>
+							</ul>
+							<a
+								href="https://wa.me/5351643954?text=Hola, quiero contratar la sincronización en la nube para STOX."
+								target="_blank"
+								class="btn btn-primary"
+							>
+								Solicitar acceso
+							</a>
+						</article>
+
+						<article class="pricing-card">
+							<div class="pricing-card-header">
+								<h3 class="pricing-card-plan">Premium Local</h3>
+								<p class="pricing-card-tagline">
+									Con sincronización local, sin internet necesario.
+								</p>
+							</div>
+							<div class="pricing-card-price">
+								<span class="pricing-card-amount">5000 CUP</span>
+								<span class="pricing-card-period">/ año</span>
+							</div>
+							<ul class="pricing-card-features" role="list">
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									<strong>Todo lo del Plan Gratuito</strong>
+								</li>
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									Inventario ilimitado
+								</li>
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									Historial y estadísticas completos
+								</li>
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									Exportación de Backup y PDF
+								</li>
+								<li class="pricing-card-feature">
+									<img
+										src="./assets/icons/check-circle-fill.svg"
+										class="pricing-card-feature-icon"
+									/>
+									App SELY para dependientes
+								</li>
+							</ul>
+							<a
+								href="https://wa.me/5351643954?text=Hola, quiero obtener un código Premium para STOX."
+								target="_blank"
+								class="btn btn-ghost"
+							>
+								Solicitar acceso
+							</a>
+						</article>
+					</div>
+				</div>
+			</section>
+
+			<!-- DOWNLOADS -->
+			<section id="downloads" class="section downloads">
+				<div class="downloads-inner">
+					<div class="downloads-glow"></div>
+					<div class="section-header">
+						<h2 class="section-title">Empieza hoy. Es gratis.</h2>
+						<p class="section-subtitle">
+							Descarga la app en tu Android, o instálala directamente desde el
+							navegador en iOS y PC.
+						</p>
+					</div>
+
+					<div class="downloads-apps">
+						<!-- STOX -->
+						<div class="cta-app-card">
+							<div class="cta-app-card-header">
+								<img src="./assets/opengraph/logo.png" class="cta-app-logo" />
+								<span class="app-badge app-badge-stox">STOX</span>
+							</div>
+							<a href="./downloads/STOX.apk" download class="btn btn-primary">
+								<img
+									src="./assets/icons/arrow-circle-down.svg"
+									class="btn-icon"
+								/>
+								Descargar Android
+							</a>
+							<a
+								href="https://cesarsullen.github.io/stox"
+								target="_blank"
+								class="cta-app-pwa-link"
+							>
+								iOS / PC — Abrir como PWA
+								<img
+									src="./assets/icons/caret-double-right.svg"
+									class="cta-app-pwa-icon"
+								/>
+							</a>
+						</div>
+
+						<!-- SELY -->
+						<div class="cta-app-card">
+							<div class="cta-app-card-header">
+								<img
+									src="./assets/opengraph/logo-sely.png"
+									class="cta-app-logo cta-app-logo-sely"
+								/>
+								<span class="app-badge app-badge-sely">SELY</span>
+							</div>
+							<a href="./downloads/SELY.apk" download class="btn btn-ghost">
+								<img
+									src="./assets/icons/arrow-circle-down.svg"
+									class="btn-icon btn-icon-accent"
+								/>
+								Descargar Android
+							</a>
+							<a
+								href="https://cesarsullen.github.io/sely"
+								target="_blank"
+								class="cta-app-pwa-link"
+							>
+								iOS / PC — Abrir como PWA
+								<img
+									src="./assets/icons/caret-double-right.svg"
+									class="cta-app-pwa-icon"
+								/>
+							</a>
+						</div>
+					</div>
+
+					<p class="downloads-pwa-note">
+						En <strong>iOS</strong> abre el enlace en Safari y usa
+						<strong>"Agregar a pantalla de inicio"</strong> para instalarla como
+						app.
+						<br />
+						En <strong>PC</strong> solo entra al enlace y en la barra de
+						búsqueda aparecerá la opción de <strong>instalar</strong>.
+					</p>
+				</div>
+			</section>
+		</main>
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="footer-inner">
+				<div class="footer-brand">
+					<img
+						src="./assets/opengraph/stox-logo-text.svg"
+						class="footer-logo"
+					/>
+					<p class="footer-tagline">
+						Control total del negocio desde el móvil.
+					</p>
+				</div>
+
+				<nav class="footer-links">
+					<div class="footer-links-group">
+						<h4 class="footer-links-title">Apps</h4>
+						<a
+							href="https://cesarsullen.github.io/stox"
+							target="_blank"
+							class="footer-link"
+							>STOX (para dueños)</a
+						>
+						<a
+							href="https://cesarsullen.github.io/sely"
+							target="_blank"
+							class="footer-link"
+							>SELY (para dependientes)</a
+						>
+					</div>
+					<div class="footer-links-group">
+						<h4 class="footer-links-title">Soporte</h4>
+						<a
+							href="https://wa.me/5351643954?text=Hola. Me gustaría informar de un problema en STOX."
+							target="_blank"
+							class="footer-link"
+							>Informar un problema</a
+						>
+						<a
+							href="https://wa.me/5351643954?text=Hola, quiero obtener un código Premium para STOX."
+							target="_blank"
+							class="footer-link"
+							>Obtener código Premium</a
+						>
+					</div>
+					<div class="footer-links-group">
+						<h4 class="footer-links-title">Más</h4>
+						<a
+							href="https://cesarsullen.github.io/views/donations"
+							target="_blank"
+							class="footer-link"
+							>Apoyar el proyecto</a
+						>
+						<a
+							href="https://wa.me/5351643954?text=Hola. Me gustaría obtener información sobre cómo obtener una web para mi negocio."
+							target="_blank"
+							class="footer-link"
+							>Crea la web de tu negocio</a
+						>
+						<a
+							href="https://cesarsullen.github.io/links"
+							target="_blank"
+							class="footer-link"
+							>Desarrollador</a
+						>
+					</div>
+				</nav>
+			</div>
+
+			<div class="footer-bottom">
+				<p class="footer-copyright">
+					© 2026 STOX. Desarrollado por
+					<a
+						href="https://cesarsullen.github.io/links"
+						target="_blank"
+						class="footer-credit-link"
+						>Saru</a
+					>.
+				</p>
+			</div>
+		</footer>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>
