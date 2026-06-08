@@ -10,6 +10,7 @@ document
 	.querySelectorAll(".nav-mobile-link, .nav-mobile-cta")
 	.forEach((link) => {
 		link.addEventListener("click", () => {
+			hamburger.classList.remove("is-open");
 			mobileMenu.classList.remove("is-open");
 		});
 	});
