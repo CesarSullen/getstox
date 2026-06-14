@@ -1,18 +1,18 @@
 @font-face {
 	font-family: "Outfit";
-	src: url("../typography/Outfit-Regular.ttf") format("truetype");
+	src: url("../typography/Outfit-Regular.woff2") format("woff2");
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Outfit";
-	src: url("../typography/Outfit-SemiBold.ttf") format("truetype");
+	src: url("../typography/Outfit-SemiBold.woff2") format("woff2");
 	font-weight: 500;
 	font-style: normal;
 }
 @font-face {
 	font-family: "Outfit";
-	src: url("../typography/Outfit-Bold.ttf") format("truetype");
+	src: url("../typography/Outfit-Bold.woff2") format("woff2");
 	font-weight: 600;
 	font-style: normal;
 }
@@ -245,7 +245,7 @@ ol {
 	}
 }
 .nav-mobile.is-open {
-	max-height: 320px;
+	max-height: 420px;
 	border-color: var(--border);
 }
 
@@ -458,7 +458,6 @@ ol {
 .features-inner {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 3rem 1.5rem;
 }
 
 .features-grid-bento {
@@ -926,7 +925,7 @@ ol {
 
 .diagram-app-screenshot {
 	width: auto;
-	height: 240px;
+	height: 220px;
 
 	@media (min-width: 768px) {
 		height: 320px;
@@ -1271,6 +1270,11 @@ ol {
 .footer-copyright {
 	font-size: 0.82rem;
 	color: hsla(0, 0%, 100%, 0.25);
+	text-align: center;
+
+	@media (min-width: 768px) {
+		text-align: left;
+	}
 }
 
 .footer-credit-link {
@@ -1278,6 +1282,11 @@ ol {
 }
 .footer-credit-link:hover {
 	text-decoration: underline;
+}
+
+.footer-credit-link img {
+	margin-bottom: 0.5rem;
+	max-width: 280px;
 }
 
 /* ANIMATIONS */
