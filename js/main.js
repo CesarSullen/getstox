@@ -74,3 +74,17 @@ const observer = new IntersectionObserver(
 );
 
 document.querySelectorAll(".js-reveal").forEach((el) => observer.observe(el));
+
+async function trackProjectActivity(projectName) {
+	try {
+		const { error } = await _supabase.rpc("increment_visit", {
+			name_param: projectName,
+		});
+
+		if (error) throw error;
+	} catch (err) {
+		console.warn("Offline mode");
+	}
+}
+
+trackProjectActivity("STOX-web");
