@@ -979,6 +979,7 @@ ol {
 	@media (min-width: 768px) {
 		flex-direction: row;
 		align-items: flex-start;
+		justify-content: center;
 	}
 }
 
@@ -991,6 +992,7 @@ ol {
 
 	@media (min-width: 768px) {
 		flex: 1;
+		max-width: 380px;
 	}
 }
 
@@ -1102,6 +1104,7 @@ ol {
 
 	@media (min-width: 768px) {
 		flex-direction: row;
+		justify-content: center;
 	}
 }
 
