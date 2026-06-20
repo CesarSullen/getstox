@@ -1042,12 +1042,6 @@ ol {
 	color: var(--text-muted);
 }
 
-.pricing-card-extra {
-	width: 100%;
-	font-size: 0.85rem;
-	color: var(--text-muted);
-}
-
 .pricing-card-features {
 	display: flex;
 	flex-direction: column;
